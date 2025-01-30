@@ -20,6 +20,10 @@ function eight_stars()
 	return has("powerstar", 8)
 end
 
+function ten_stars()
+	return has("powerstar", 10)
+end
+
 function basement_key()
 	return has("basementkey") or has("progkey_1")
 end

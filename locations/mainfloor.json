@@ -325,7 +325,7 @@
 	},
 	{
 		"name": "Tower of the Wing Cap",
-		"access_rules": [],
+		"access_rules": ["$ten_stars"],
 		"visibility_rules": [],
 		"sections": [
 			{
@@ -415,7 +415,7 @@
 	},
 	{
 		"name": "The Secret Aquarium",
-		"access_rules": ["$three_stars", "$aquarium"],
+		"access_rules": ["$three_stars, $aquarium"],
 		"visibility_rules": [],
 		"sections": [
 			{
