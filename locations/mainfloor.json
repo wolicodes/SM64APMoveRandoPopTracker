@@ -64,7 +64,7 @@
 	},
 	{
 		"name": "Whomp's Fortress",
-		"access_rules": [],
+		"access_rules": ["$one_star"],
 		"visibility_rules": [],
 		"sections": [
 			{
@@ -124,7 +124,7 @@
 	},
 	{
 		"name": "Jolly Roger Bay",
-		"access_rules": [],
+		"access_rules": ["$three_stars"],
 		"visibility_rules": [],
 		"sections": [
 			{
@@ -183,7 +183,7 @@
 	},
 	{
 		"name": "Cool Cool Mountain",
-		"access_rules": [],
+		"access_rules": ["$three_stars"],
 		"visibility_rules": [],
 		"sections": [
 			{
@@ -349,7 +349,7 @@
 	},
 	{
 		"name": "The Princess's Secret Slide",
-		"access_rules": [],
+		"access_rules": ["$one_star"],
 		"visibility_rules": [],
 		"sections": [
 			{
@@ -373,7 +373,7 @@
 	},
 	{
 		"name": "Bowser in the Dark World",
-		"access_rules": [],
+		"access_rules": ["$eight_stars"],
 		"visibility_rules": [],
 		"sections": [
 			{
@@ -415,7 +415,7 @@
 	},
 	{
 		"name": "The Secret Aquarium",
-		"access_rules": ["$aquarium"],
+		"access_rules": ["$three_stars", "$aquarium"],
 		"visibility_rules": [],
 		"sections": [
 			{

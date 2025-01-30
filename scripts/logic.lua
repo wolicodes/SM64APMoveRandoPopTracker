@@ -8,6 +8,26 @@ function has(item, amount)
     end
 end
 
+function one_star()
+	return has("powerstar")
+end
+
+function three_stars()
+	return has("powerstar", 3)
+end
+
+function eight_stars()
+	return has("powerstar", 8)
+end
+
+function basement_key()
+	return has("basementkey") or has("progkey_1")
+end
+
+function top_floor_key()
+	return has("topfloorkey") or has("progkey_2")
+end
+
 function bob_island()
 	return has("bob") or (has("cannons") and has("wc") and has("tj")) or (has("caps") and has("cannons") and has("lj"))
 end

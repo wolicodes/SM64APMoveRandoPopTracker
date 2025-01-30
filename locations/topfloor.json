@@ -3,6 +3,7 @@
 	"name": "Second Floor",
 	"chest_unopened_img": "images/items/powerstar.png",
 	"chest_opened_img": "images/items/powerstaroff.png",
+	"access_rules": ["$top_floor_key"],
 	"children": [
 	{
 		"name": "Snowman's Land",
